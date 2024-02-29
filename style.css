@@ -9,8 +9,6 @@ html, body {
 
 body {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    border-top: 40px solid black; 
-    border-bottom: 40px solid black; 
 
     display: flex;
     flex-direction: column; 
