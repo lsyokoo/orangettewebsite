@@ -1,0 +1,112 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-top: 40px solid black; 
+    border-bottom: 40px solid black; 
+
+    display: flex;
+    flex-direction: column; 
+}
+
+
+#bg-video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%; 
+    width: auto;
+    height: auto;
+    z-index: -1; 
+}
+
+
+
+header {
+    background-color: transparent;
+    color: black;
+    padding: 50px;
+    text-align: center;
+    font-size: 90px; 
+    width:100%;
+    z-index: 1; 
+}
+
+
+footer {
+    width: 100%;
+    padding: 20px 0;
+    text-align: right;
+    background-color:transparent;
+    color: black; 
+    font-size: 14px;
+    position: relative; 
+}
+
+.steps {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+    gap: 20px;
+}
+
+.step {
+    text-align: center; 
+    width: 18%; 
+    box-sizing: border-box; 
+    margin: 0 auto; 
+}
+
+.step img {
+    width: 100%; 
+    height: auto; 
+    display: block; 
+    margin: 0 auto; 
+}
+
+.step p {
+    font-size: 25px; 
+    color: black; 
+    margin: 10px 0 10px;
+}
+
+
+
+
+.step-header {
+    background-color: transparent;
+    color: black;
+    padding: 40px 20px; 
+    text-align: center;
+    font-size: 52px; 
+}
+
+
+.step-images {
+    display: flex;
+    justify-content: space-around; 
+    padding: 10px 0; 
+}
+
+
+.step-images img {
+    width: calc(30% - 120px);
+    margin: 0 20px; 
+    height: auto;
+}
+
+
+.step-content {
+    padding: 20px;
+    text-align: justify;
+    font-size: 30px; 
+}
